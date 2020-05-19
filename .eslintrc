@@ -1,0 +1,16 @@
+{
+    "extends": ["codingitwrong"],
+    "parser": "babel-eslint",
+    "plugins": ["jest", "cypress", "react"],
+    "env": {
+        "browser": true,
+        "jest/globals": true,
+        "cypress/globals": true,
+        "node": true,
+        "amd": true,
+        "es6": true
+    },
+    "rules": {
+        "indent": ["error", 4]
+    }
+}
